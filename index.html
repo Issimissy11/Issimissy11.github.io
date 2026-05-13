@@ -1,141 +1,464 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Issaura Oematie | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Issaura Oematie | Storytelling Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <!-- Sterren achtergrond -->
+
+  <!-- BACKGROUND -->
   <canvas id="stars"></canvas>
 
+  <div class="grain"></div>
+
+  <div class="story-line"></div>
+
+
   <!-- HERO -->
-  <header class="hero">
+
+  <header class="hero reveal">
+
     <div class="hero-content">
-      <h1>Issaura Oematie</h1>
-      <p>
-        Creatieve Story Artist & Visual Storyteller
+
+      <p class="chapter-label">
+        
       </p>
-      <a href="#projects" class="btn">Bekijk mijn werk ↓</a>
+
+      <h1>
+        Issaura<br>
+        Oematie
+      </h1>
+
+      <p class="hero-text">
+        Een digitaal verhalenboek vol interactieve werelden,
+        emotionele verhalen en visuele experimenten.
+      </p>
+
+      <a href="#projects" class="btn">
+        Open het archief ↓
+      </a>
+
     </div>
+
   </header>
 
-  <!-- OVER MIJ + MOTIVATIE SAMEN -->
-  <section id="about" class="section about">
+
+
+  <!-- ABOUT -->
+
+  <section class="section about reveal">
+
+    <div class="section-title">
+
+      <p class="chapter-label">
+        HOOFDSTUK I
+      </p>
+
+      <h2>
+        Over de maker
+      </h2>
+
+    </div>
+
+
     <div class="about-grid">
+
       <div class="about-photo">
-        <img src="img/20240703_182353.jpg" alt="Issaura Oematie" />
+
+        <img src="img/20240703_182353.jpg" alt="Issaura">
+
       </div>
+
+
       <div class="about-text">
-        <h2>Over mij</h2>
-        <p>
-         Ik ben Issaura, een 19-jarige <b>student Communicatie en Multimedia Design.</b>
-Als <b>creatieve storyteller</b> gebruik ik verschillende media om mijn verhalen een plek in de wereld te geven. Met mijn werk wil ik <b>nieuwe perspectieven</b> zichtbaar maken en verhalen vertellen die vaak buiten beeld blijven. Door <b>creativiteit en vorm te combineren</b>, geef ik elk verhaal een eigen draai zodat het raakt, verrast en aan het denken zet.
-        </p>
-        <h2>Motivatie en Inspiratie</h2>
-        <p>
-          Ik geloof dat <b> verhalen mensen kunnen verbinden en moeilijke onderwerpen toegankelijker kunnen maken.</b> Daarom gebruik ik <b>design en storytelling om gesprekken op gang te brengen</b> en emoties tastbaar te maken.
+
+        <details class="book-section" open>
+
+          <summary>
+            Over mij
+          </summary>
+
+          <p>
+            Ik ben Issaura, een creatieve storyteller en student
+            Communicatie en Multimedia Design.
+          
+            Als <b>creatieve storyteller</b> gebruik ik verschillende media om mijn verhalen een plek in de wereld te geven. Met mijn werk wil ik <b>nieuwe perspectieven</b> zichtbaar maken en verhalen vertellen die vaak buiten beeld blijven. Door <b>creativiteit en vorm te combineren</b>, geef ik elk verhaal een eigen draai zodat het raakt, verrast en aan het denken zet.
+
+Ook in mijn vrije tijd ben ik altijd creatief bezig. Ik maak bijvoorbeeld mijn eigen knutsels, zoals oorbellen van strijkkralen, en ik houd van tekenen. Daarnaast ben ik een grote dromer die veel nadenkt over diepere thema’s en ideeën waar ik verder in wil duiken. Die nieuwsgierigheid en verbeelding probeer ik ook terug te laten komen in mijn designs, zodat ze niet alleen visueel sterk zijn, maar ook iets voelbaar of betekenisvol overbrengen.
+          </p>
+
+        </details>
+
+
+        <details class="book-section">
+
+          <summary>
+            Motivatie & Inspiratie
+          </summary>
+
+          <p>
+            Ik geloof dat <b> verhalen mensen kunnen verbinden en moeilijke onderwerpen toegankelijker kunnen maken.</b> Daarom gebruik ik <b>design en storytelling om gesprekken op gang te brengen</b> en emoties tastbaar te maken.
 
 Niet elk verhaal hoort in één vorm te passen,sommige vragen om beeld, andere om geluid, interactie of spel. <b>Juist dat experiment, het zoeken naar de juiste manier om iets te vertellen, inspireert me.</b> Ik wil dat mijn verhalen en die van anderen hun weg vinden naar mensen via verschillende media.
 
 Mijn inspiratie haal ik uit makers die storytelling op hun eigen manier benaderen, zoals<b> Nina Freeman</b>, bekend om haar intieme, verhalende games Lost Records, Last Call en Grass Stains; <b>Pendleton Ward</b>, de bedenker en scenarioschrijver van Adventure Time; en <b>Isobel Knowles</b>, met projecten als Night Creatures, It’s a Jungle Here en Can’t Do Without You.
-        </p>
+
+          </p>
+
+        </details>
+
       </div>
+
     </div>
+
   </section>
 
-  <!-- PROJECTEN -->
-  <section id="projects" class="section projects">
-    <h2>Projecten</h2>
+
+
+
+  <!-- PROJECTS -->
+
+  <section id="projects" class="section projects reveal">
+
+    <div class="section-title">
+
+      <p class="chapter-label">
+        HOOFDSTUK II
+      </p>
+
+      <h2>
+        Verhalen & Werelden
+      </h2>
+
+    </div>
+
+
+
+    <!-- PROJECT CARDS -->
 
     <div class="project-grid">
-      <div class="card" data-project="shots">🎬 5 Shots</div>
-      <div class="card" data-project="handeling">💡 Alledaagse Handeling</div>
-      <div class="card" data-project="poster">🖋️ Collectief Poster</div>
-      <div class="card" data-project="fruitbats">🕹️ FruitBats</div>
-      <div class="card" data-project="veilig">🌐 Veilig Thuis App Website</div>
+
+      <div class="card" data-project="shots">
+
+        <span class="number">01</span>
+
+        <h3>5 Shots</h3>
+
+        <p>
+          Een verhaal verteld via camerawerk,
+          afstand en nervositeit.
+        </p>
+
+      </div>
+
+
+
+      <div class="card" data-project="handeling">
+
+        <span class="number">02</span>
+
+        <h3>Alledaagse Handeling</h3>
+
+        <p>
+          Een visuele interpretatie van
+          eenzaamheid en stilte.
+        </p>
+
+      </div>
+
+
+
+      <div class="card" data-project="poster">
+
+        <span class="number">03</span>
+
+        <h3>Collectief Poster</h3>
+
+        <p>
+          Mystieke vormgeving rond angst
+          voor de toekomst.
+        </p>
+
+      </div>
+
+
+
+      <div class="card" data-project="fruitbats">
+
+        <span class="number">04</span>
+
+        <h3>FruitBats</h3>
+
+        <p>
+          Een interactieve gamewereld
+          over ontdekken en verzamelen.
+        </p>
+
+      </div>
+
+
+
+      <div class="card" data-project="veilig">
+
+        <span class="number">05</span>
+
+        <h3>Veilig Thuis</h3>
+
+        <p>
+          Een interactieve ervaring over
+          red flags en controle.
+        </p>
+
+      </div>
+
+
+
+      <div class="card" data-project="flora">
+
+        <span class="number">06</span>
+
+        <h3>Hypertensoflora</h3>
+
+        <p>
+          Een wereld waarin natuur
+          de mens begint te veranderen.
+        </p>
+
+      </div>
+
     </div>
 
-    <!-- 🎥 UITKLAPBARE PROJECTEN -->
+
+
+    <!-- PROJECT DETAILS -->
+
+
+
+    <!-- 01 -->
+
     <div class="project-details" id="shots">
-      <p><h1>5 Shots</h1></p>
-      <p>Mijn eerste werk was een opdracht waarbij ik een filmpje moest maken van vijf shots. Met behulp van camerawerk, close-ups en wide shots maakte ik een montage en legde ik uit waarom ik die keuzes had gemaakt. Als thema koos ik voor zenuwen en nervositeit. In het filmpje zien we een personage dat bang is om een telefoontje te plegen, uitgebeeld door middel van de afstand en invalshoek van de shots. Hierbij kon ik mijn creatieve blik en ruimtelijk inzicht inzetten om vooraf te visualiseren hoe de shots eruit zouden zien en hoe ik ze het beste kon uitvoeren.</p>
-      <p><video controls>
-        <source src="videos/WhatsApp Video 2025-09-18 at 12.08.37.mp4" type="video/mp4" /> 
-        Je browser ondersteunt dit videotype niet.
-      </video>
+
+      <h1>5 Shots</h1>
+
+      <p>
+       Mijn eerste werk was een opdracht waarbij ik een filmpje moest maken van vijf shots. Met behulp van camerawerk, close-ups en wide shots maakte ik een montage en legde ik uit waarom ik die keuzes had gemaakt. Als thema koos ik voor zenuwen en nervositeit. In het filmpje zien we een personage dat bang is om een telefoontje te plegen, uitgebeeld door middel van de afstand en invalshoek van de shots. Hierbij kon ik mijn creatieve blik en ruimtelijk inzicht inzetten om vooraf te visualiseren hoe de shots eruit zouden zien en hoe ik ze het beste kon uitvoeren.
       </p>
-      <img src="img/Schermopname (210).png" alt="5 Shots1" />
-      <img src="img/Schermopname (211).png" alt="5 Shots2" />
+
+      <video controls>
+        <source src="videos/WhatsApp Video 2025-09-18 at 12.08.37.mp4" type="video/mp4">
+      </video>
+
+      <div class="gallery">
+
+        <img src="img/Schermopname (210).png">
+        <img src="img/Schermopname (211).png">
+
+      </div>
+
     </div>
+
+
+
+
+    <!-- 02 -->
 
     <div class="project-details" id="handeling">
-      <p><h1>Alledaagse Handeling: studeren</h1></p>
-      <p>Mijn tweede werk was een soortgelijke opdracht, maar dit keer lag de nadruk op het monteren met effecten, licht, kleur en geluid om een thema over te brengen. De opdracht was om een dagelijkse handeling te filmen en daar een specifieke sfeer aan te geven. Ik koos voor het thema eenzaamheid.
+
+      <h1>Alledaagse Handeling</h1>
+
+      <p>
+       Mijn tweede werk was een soortgelijke opdracht, maar dit keer lag de nadruk op het monteren met effecten, licht, kleur en geluid om een thema over te brengen. De opdracht was om een dagelijkse handeling te filmen en daar een specifieke sfeer aan te geven. Ik koos voor het thema eenzaamheid.
 Bij het uitwerken heb ik veel aandacht besteed aan compositie, licht en kleur. Met foto’s van mijn visueel onderzoek kreeg ik inzicht in hoe ik deze sfeer het beste kon overbrengen. Door gebruik te maken van ruimtelijke shots en het personage van een afstand te filmen, kon ik het thema op een eenvoudige maar krachtige manier zichtbaar maken. Het is voor mij belangrijk dat ik, zelfs zonder woorden, een sfeer en verhaal duidelijk kan vertellen. Hieronder zie je mijn visueel onderzoek voor de het filmpje over eenzaamheid.
-</p>
-      <p><video controls>
-        <source src="videos/studeren video kleiner.mp4" type="video/mp4" /> 
-        Je browser ondersteunt dit videotype niet.
+
+      </p>
+
+      <video controls>
+        <source src="videos/studeren video kleiner.mp4" type="video/mp4">
       </video>
-      <img src="img/Schermopname (313).png" alt="Alledaagse Handeling 1" />
-      <img src="img/Schermopname (314).png" alt="Alledaagse Handeling 2" />
-      <img src="img/Schermopname (315).png" alt="Alledaagse Handeling 3" />
-  
+
+      <div class="gallery">
+
+        <img src="img/Schermopname (313).png">
+        <img src="img/Schermopname (314).png">
+        <img src="img/Schermopname (315).png">
+
+      </div>
+
     </div>
+
+
+
+
+    <!-- 03 -->
 
     <div class="project-details" id="poster">
-      <p><h1>"Mistakes Happen, even when you see the future" Poster</h1></p>
-      <p>Mijn derde werk kwam voort uit een opdracht voor Graphic Matters, waarbij we een poster moesten ontwerpen rond een quote met behulp van typografie. Mijn gekozen quote was: “Mistakes happen, even when you can see the future”, afkomstig uit een serie genaamd: Steven Universe waarin een personage de toekomst kan zien.
+
+      <h1>Graphic Matter Poster</h1>
+
+      <p>
+        Mijn derde werk kwam voort uit een opdracht voor Graphic Matters, waarbij we een poster moesten ontwerpen rond een quote met behulp van typografie. Mijn gekozen quote was: “Mistakes happen, even when you can see the future”, afkomstig uit een serie genaamd: Steven Universe waarin een personage de toekomst kan zien.
 Ik koos deze quote omdat ik hem wilde richten naar mensen die zich vaak zorgen maken over de toekomst. De boodschap is dat niet alles perfect hoeft te verlopen, zolang je weet hoe je met fouten omgaat of hoe je ze kunt oplossen, is dat voldoende. Voor de vormgeving liet ik me inspireren door waarzegsters en tarotkaarten, wat goed aansloot bij het thema van de toekomst en mystiek.
-</p>
-      <img src="img/Schermopname (234).png" alt="Collectief Poster" />
-      <img src="img/WhatsApp Image 2025-09-18 at 11.14.43 (1).jpeg" alt="Collectief Poster2" />
-      <img src="img/WhatsApp Image 2025-09-18 at 11.14.44.jpeg" alt="Collectief Poster3" />
-      <img src="img/WhatsApp Image 2025-09-18 at 11.14.43 (2).jpeg" alt="Collectief Poster4" />
+
+      </p>
+
+      <div class="gallery">
+
+        <img src="img/Schermopname (234).png">
+        <img src="img/WhatsApp Image 2025-09-18 at 11.14.43 (1).jpeg">
+        <img src="img/WhatsApp Image 2025-09-18 at 11.14.44.jpeg">
+        <img src="img/WhatsApp Image 2025-09-18 at 11.14.43 (2).jpeg">
+
+      </div>
+
     </div>
+
+
+
+
+    <!-- 04 -->
 
     <div class="project-details" id="fruitbats">
-      <p><h1>FruitBats</h1></p>
-      <p>Voor mijn vierde werk heb ik de game Fruit Bats ontwikkeld. Deze opdracht kwam voort uit Creative Technology, waarbij we een eigen versie van Flappy Bird moesten ontwerpen met een uniek personage en een klein verhaaltje. Ik koos voor een vleermuisje dat appeltjes eet tijdens zijn zoektocht naar de grote appelboom.
-Hoewel het een simpele, Flappy Bird-geïnspireerde game is, vind ik het belangrijk dat er een verhaal achter zit. Zo wordt het niet alleen een spel, maar ook een interactieve manier van storytelling. Voor mij is het essentieel om verhalen via verschillende media te kunnen vertellen, en games bieden de mogelijkheid om die verhalen interactief te maken en zo een duidelijke boodschap achter te laten bij de speler.</p>
-       <p><video controls>
-        <source src="videos/FruitBats.mp4" type="video/mp4" /> 
-        Je browser ondersteunt dit videotype niet.
+
+      <h1>FruitBats</h1>
+
+      <p>
+        Voor mijn vierde werk heb ik de game Fruit Bats ontwikkeld. Deze opdracht kwam voort uit Creative Technology, waarbij we een eigen versie van Flappy Bird moesten ontwerpen met een uniek personage en een klein verhaaltje. Ik koos voor een vleermuisje dat appeltjes eet tijdens zijn zoektocht naar de grote appelboom.
+Hoewel het een simpele, Flappy Bird-geïnspireerde game is, vind ik het belangrijk dat er een verhaal achter zit. Zo wordt het niet alleen een spel, maar ook een interactieve manier van storytelling. Voor mij is het essentieel om verhalen via verschillende media te kunnen vertellen, en games bieden de mogelijkheid om die verhalen interactief te maken en zo een duidelijke boodschap achter te laten bij de speler.
+
+      </p>
+
+      <video controls>
+        <source src="videos/FruitBats.mp4" type="video/mp4">
       </video>
-      <img src="img/Schermafbeelding 2025-06-18 013423.png" alt="FruitBats" />
-      <img src="img/Schermafbeelding 2025-06-18 014020.png" alt="FruitBats2" />
-  
+
+      <div class="gallery">
+
+        <img src="img/Schermafbeelding 2025-06-18 013423.png">
+        <img src="img/Schermafbeelding 2025-06-18 014020.png">
+
+      </div>
+
     </div>
 
+
+
+
+    <!-- 05 -->
+
     <div class="project-details" id="veilig">
-      <p><h1>Veilig Thuis</h1></p>
-      <p>Mijn vijfde project was een samenwerking met Veilig Thuis, Extrafazant en Addsome aan een app voor de campagne “Ken jij de red flags?”. Deze campagne richtte zich op intieme terreur en dwingende controle, en hoe je dit bespreekbaar kunt maken bij jongeren van 12 tot 20 jaar.
+
+      <h1>Veilig Thuis</h1>
+
+      <p>
+        Mijn vijfde project was een samenwerking met Veilig Thuis, Extrafazant en Addsome aan een app voor de campagne “Ken jij de red flags?”. Deze campagne richtte zich op intieme terreur en dwingende controle, en hoe je dit bespreekbaar kunt maken bij jongeren van 12 tot 20 jaar.
 
 Voor dit project heb ik meegewerkt aan de app door game-elementen te ontwikkelen die inzicht geven in de verschillende fases van intieme terreur en hoe je de red flags kunt herkennen. Omdat onze doelgroep jongeren van 12 tot 20 jaar waren, vond ik dat een interactieve test-website goed bij hen zou passen. Interactie en reflectie zorgen er namelijk voor dat de boodschap beter blijft hangen en dat jongeren beter begrijpen hoe intieme terreur ontstaat en kan escaleren.
 
-In de app krijgt de gebruiker een test over drie fases van intieme terreur: lovebombing, isoleren en controle. De gebruiker maakt daarbij eigen keuzes en geeft aan wat zij wel of niet als een red flag zien. Vervolgens krijgen ze meer informatie over elke fase.</p>
-       <p><video controls>
-        <source src="videos/20251031-1549-24.2715523.mp4" type="video/mp4" /> 
-        Je browser ondersteunt dit videotype niet.
+In de app krijgt de gebruiker een test over drie fases van intieme terreur: lovebombing, isoleren en controle. De gebruiker maakt daarbij eigen keuzes en geeft aan wat zij wel of niet als een red flag zien. Vervolgens krijgen ze meer informatie over elke fase.
+
+      </p>
+
+      <video controls>
+        <source src="videos/20251031-1549-24.2715523.mp4" type="video/mp4">
       </video>
-      <img src="img/Schermopname (317).png" alt="Veilig Thuis App Website" />
-      <img src="img/Schermopname (318).png" alt="Veilig Thuis App Website2" />
-      <img src="img/Schermopname (246).png" alt="Veilig Thuis App Website3" />
-      <img src="img/Schermopname (316).png" alt="Veilig Thuis App Website3" />
+
+      <div class="gallery">
+
+        <img src="img/Schermopname (317).png">
+        <img src="img/Schermopname (318).png">
+        <img src="img/Schermopname (246).png">
+        <img src="img/Schermopname (316).png">
+
+      </div>
+
     </div>
+
+
+
+
+    <!-- 06 -->
+
+    <div class="project-details flora-theme" id="flora">
+
+      <h1>
+        Discursive Worlding: 
+        <i>Hypertensoflora Out of Control</i>
+      </h1>
+
+      <p>
+        Mijn zesde werk speelt zich af in een alternatieve wereld waarin milieustress zich zodanig heeft ontwikkeld dat de natuur steeds extremere vormen aanneemt. Door voortdurende druk op ecosystemen beginnen planten zich agressiever aan te passen om te kunnen overleven. Uiteindelijk evolueert dit tot een parasitaire plantenziekte die mensen als gastheer gebruikt. De ziekte is niet dodelijk, maar verandert wel de relatie tussen mens en natuur ingrijpend.
+Binnen deze wereld ontstaan verschillende reacties vanuit de mensheid. Een deel van de samenleving trekt zich steeds verder terug uit angst voor de natuur en probeert afstand te houden van alles wat besmet of veranderd is. Tegelijkertijd zijn er ook mensen die juist proberen samen te leven met het plantenvirus. Zij zoeken naar een vorm van mutualisme, waarin mens en natuur elkaar niet bestrijden maar leren aanpassen aan elkaars bestaan. Hierdoor vervaagt de grens tussen menselijk en natuurlijk steeds meer.
+In dit project staat daarom niet alleen de biologische chaos centraal, maar vooral de veranderende relatie tussen mens en natuur. Ik wilde onderzoeken hoe ver die verhouding kan verschuiven wanneer de natuur niet langer iets is dat gecontroleerd kan worden, maar een actieve kracht wordt die invloed heeft op het menselijk lichaam en dagelijks leven.
+Om deze wereld tastbaar te maken, heb ik ook verschillende gebruiksvoorwerpen ontworpen die binnen deze samenleving zouden kunnen bestaan. Deze objecten laten zien hoe mensen zich aanpassen aan hun nieuwe werkelijkheid en hoe de interactie tussen mens en natuur zichtbaar wordt in alledaagse vormen en materialen. Met dit werk wilde ik vooral benadrukken hoe complex, kwetsbaar en tegelijkertijd extreem de relatie tussen mens en natuur kan worden wanneer overleving centraal komt te staan.
+
+      
+      </p>
+
+      <div class="gallery flora-gallery">
+
+        <img src="img/Schermopname (523).png">
+        <img src="img/Schermopname (524).png">
+        <img src="img/Schermopname (526).png">
+        <img src="img/Schermopname (521).png">
+        <img src="img/Schermopname (522).png">
+        
+
+      </div>
+
+    </div>
+
   </section>
 
+
+
+
   <!-- CONTACT -->
-  <footer class="section contact">
-    <h2>Contact</h2>
-    <p>📧 <a href="mailto:misalienoe@gmail.com">misalienoe@gmail.com</a></p>
-    <p class="small">© 2025 Issaura Oematie</p>
+
+  <footer class="section contact reveal">
+
+    <p class="chapter-label">
+    
+    </p>
+
+    <h2>
+      Contact
+    </h2> 
+
+    <p>
+      📧
+      <a href="mailto:misalienoe@gmail.com">
+        misalienoe@gmail.com
+      </a>
+    </p>
+
   </footer>
 
+
+
+
+  <!-- LIGHTBOX -->
+
+  <div class="lightbox" id="lightbox">
+
+    <span class="close-lightbox">
+      &times;
+    </span>
+
+    <img class="lightbox-img" id="lightbox-img">
+
+  </div>
+
+
   <script src="script.js"></script>
+
 </body>
 </html>
-
